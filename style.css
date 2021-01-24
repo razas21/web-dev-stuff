@@ -1,0 +1,126 @@
+h1 { 
+	font-family:"century gothic";
+	font-style: italic; 
+	font-size: 2.5rem;
+}
+
+label {
+  
+  margin-bottom: 0.5rem;
+  font-weight: bold; 
+  display: flex;
+}
+
+body {
+	color: white;
+	font-family: 'century gothic';
+	background: linear-gradient(93deg, #14b7b7, #a71d1d);	
+	background-size: 200%;
+	padding-bottom: 5rem;
+	animation-name: fade;
+    animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+#survey-form  {
+	background: rgb(72 46 46 / 18%);
+	  padding: 3.5rem 5rem;
+	  border-radius: 6rem;
+}
+
+
+div {
+  background: 'black';
+}
+
+.container {
+  max-width: 600px;
+	margin: 4rem auto 0 auto;
+}
+
+.header {
+   margin-bottom:4%;
+   text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.inputs {
+  display: block;
+  width: 100%;
+  
+  padding: 0.75rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+  
+textarea {
+  width: -webkit-fill-available;
+  height: 6rem;
+  border-radius: 2rem;
+  padding: 1rem;
+  resize: vertical;
+  min-height: 50px;
+}
+
+.checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  display: flex;
+}
+
+.submit {
+  width: -webkit-fill-available;
+  height: 3.5rem;   
+  background-color: initial;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  border-width: thin;
+  color: white;
+  padding: 1rem;
+  font-weight: bold;
+  border-top-color: initial;
+    border-top-style: solid;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: solid;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: solid;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: solid;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+
+
+}
+
+@keyframes fade {
+    0% {background-position: 40%}
+    100% {background-position: 100%}
+  }
+
+@media screen and (max-width: 1020px) { 
+  .container, body, #survey-form{
+     float: none;
+    }
+}
